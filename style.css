@@ -72,3 +72,23 @@
     min-height: 260px;
   }
 }
+
+/* PYTHON HACKERRANK LINK */
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-title a {
+  color: #777;
+  text-decoration: none;
+  font-size: 22px;
+  transition: .25s ease;
+}
+
+.skill-title a:hover {
+  color: white;
+  transform: translate(3px, -3px);
+}
